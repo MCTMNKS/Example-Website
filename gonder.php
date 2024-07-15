@@ -26,10 +26,10 @@ try {
     //Server settings
     $mail->SMTPDebug = 0;                      
     $mail->isSMTP();                                            
-    $mail->Host       = 'smtp.gmail.com';                     
+    $mail->Host       = '*********';                     
     $mail->SMTPAuth   = true;                                   
-    $mail->Username   = 'mctmnks1@gmail.com';                     
-    $mail->Password   = 'wptoixhtsxskxxwv';                               
+    $mail->Username   = '*********';                     
+    $mail->Password   = '*********';                               
     $mail->SMTPSecure = 'ssl';            
     $mail->Port       = 465;                                    
 
@@ -42,8 +42,8 @@ try {
 );
 
     //Recipients
-    $mail->setFrom('iletisim@dvrk.com.tr', 'İletisim - Formu');
-    $mail->addAddress('mctmnks1@gmail.com', 'Mecit MENEKŞE');     
+    $mail->setFrom('*********', '**********');
+    $mail->addAddress('*********', '*********');     
 
 
     //Content
